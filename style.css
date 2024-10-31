@@ -22,6 +22,9 @@
 .whole{
     background-color: var(--theme);
 }
+.bg-theme{
+     background-color: var(--theme);
+}
 .bar{
     display: none;
 }
