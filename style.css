@@ -363,49 +363,54 @@ nav ul li button{
    margin:0 auto;
    margin-top: 10%;
    margin-bottom: 2%;
-       }
-       .aboutme-h1{
-           margin-left: 4%;
-          
-       }
-       .aboutme-span{
-           text-align: center;
-           margin-left: 5%;
-       }
-       .aboutme-btn{
+}
+.aboutme-h1{
+    margin-left: 4%;
+    color:var(--text-color);      
+ }
+.aboutme-span{
+    text-align: center;
+    margin-left: 5%;
+    color:var(--text-color);
+ }
+.aboutme-btn{
    padding: 10px;
    border: none;
    border-radius: 50%;
    background-color:rgb(239, 74, 74);
    margin-top: 3%;
    margin-left: 3%;
-       }
-       .aboutme-span-2{
-           margin-left: 20%;
-           text-align: center;
-           margin-top: 2%;
-       }
-       .aboutme-span-3{
-           margin-left: 20%;
-           text-align: center;
-           padding-top: 50%;
-       }
-       .id-img{
-        width: 100%;
-        height: 300px;
-        margin: 0 auto;
-        margin-top: 22%;
-        border-radius: 30px;
-       
-    }
-    .page2-button{
-    padding: 20px;
-    border: none;
-    width: 70px;
-    font-size: 25px;
-    background-color: var(--fill-color);
-    border-radius: 50px;
-    margin: 0 auto;
+ }
+.aboutme-span-2{
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 2%;
+    color:var(--text-color);
+}
+.aboutme-span-3{
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 50%;
+    color:var(--text-color);
+}
+.aboutme-p{
+     color:var(--text-color);
+}
+.id-img{
+ width: 100%;
+ height: 300px;
+ margin: 0 auto;
+ margin-top: 22%;
+border-radius: 30px;      
+}
+.page2-button{
+padding: 20px;
+border: none;
+width: 70px;
+font-size: 25px;
+background-color: var(--fill-color);
+border-radius: 50px;
+ margin: 0 auto;
 }
 .page2-p{
     font-size: 22px;
