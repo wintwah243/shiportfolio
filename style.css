@@ -490,10 +490,6 @@ margin-bottom: 20%;
     background-color: rgb(178, 240, 237);
     margin-left: 10%;
 }
-.popupbox {
-    display: none; /* Hidden by default */
-    /* Add any additional styles needed for positioning or appearance */
-}
 .pj1{
     width: 350px;
     height: 200px;
@@ -676,35 +672,6 @@ margin-bottom: 20%;
             visibility: hidden;
             transition: transform 0.4s, top 0.4s;
         }
-        .open-popup{
-            visibility: visible;
-            top:50%;
-            transform: translate(-50%,-50%) scale(1);
-        }
-        .popup img{
-            width: 100px;
-            margin-top: -50px;
-            border-radius: 50%;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-        .popup h2{
-            font-size: 38px;
-            font-weight: 500;
-            margin: 30px 0 10px;
-        }
-        .popup button{
-            width: 100%;
-            margin-top: 50px;
-            padding: 10px 0;
-            background: #6fd649;
-            color: #fff;
-            border: 0;
-            outline: none;
-            font-size: 18px;
-            border-radius: 4px;
-            cursor: pointer;
-            box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-        }
         .footer{
             background-color: #333;
             text-align: center;
@@ -731,7 +698,7 @@ margin-bottom: 20%;
             align-items: center;
         }
         .wrapper-form{
-            padding: 10px;
+    padding: 10px;
     background-color: var(--fill-color);
     width: 300px;
     height: 300px;
@@ -829,7 +796,7 @@ margin-bottom: 20%;
             border: none;
             border-radius: 33px;
             background-color: var(--fill-color);
-            font-size: 15px;
+            font-size: 10px;
         }
         .edu-star{
             margin-left: 30px;
