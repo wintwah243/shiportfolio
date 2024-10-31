@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    body{
+        background-color: #fb7da8;
+    }
+    @keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.block {
+    opacity: 0; /* Initial state */
+    animation: appear 1s ease forwards; /* Add a duration */
+}
+
+    .progress-container {
+      width: 100%;
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 10px;
+      
+    }
+
+    .progress-header {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .progress-bar-wrapper {
+      background-color: #e0e0e0;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      height: 24px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      border-radius: 8px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      padding: 2px;
+    }
+
+    /* Custom colors for each progress bar */
+    .progress-bar-html {
+      background-color: black; /* Red */
+      width: 60%; /* Adjust width as needed */
+    }
+
+    .progress-bar-css {
+      background-color: black; /* Blue */
+      width: 20%; /* Adjust width as needed */
+    }
+
+    .progress-bar-js {
+      background-color: black; /* Orange */
+      width: 70%; /* Adjust width as needed */
+    }
+    .progress-bar-html-css {
+      background-color: black; /* Orange */
+      width: 80%; /* Adjust width as needed */
+    }
+    .progress-bar-js2 {
+      background-color: black; /* Orange */
+      width: 50%; /* Adjust width as needed */
+    }
+    
+</style>
+<body>
+    
+        <nav>
+            <div class="logo">
+              <a href="index.html">   <button class="page2-button"><i class="fa-solid fa-arrow-left"></i></button></a> 
+            </div>
+            <div class="nav-list">
+            
+
+                <!-- updated start here -->
+                <ul id="menuList">
+                    <li class="page1-li"><a href="index.html">Home</a></li>
+                    <li class="page1-li"><a href="aboutme.html">About me</a></li>
+                    <li class="page1-li"><a href="project.html">Project</a></li>
+                    <li class="page1-li"><a href="contact.html">Contact</a></li>
+                    <li class="page1-li"><button class="page1-button"><i class="fa-solid fa-moon icon"></i></button></li>
+                </ul>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+
+                <!-- update end here -->
+            
+               
+            </div>
+              
+            
+        </nav>
+        <div class="pj-wrapper block">
+            <button class="pj-list-btn">Skill progress bar</button>
+           </div>
+        <div class="progress-container block">
+            <!-- HTML Progress Bar -->
+            <div class="progress-header">Web development</div>
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar progress-bar-html block">60%</div>
+            </div>
+          
+            <!-- CSS Progress Bar -->
+            <div class="progress-header">React</div>
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar progress-bar-css block">20%</div>
+            </div>
+          
+            <!-- JavaScript Progress Bar -->
+            <div class="progress-header">Figma</div>
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar progress-bar-js block">70%</div>
+            </div>
+
+            <div class="progress-header">HTML,CSS</div>
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar progress-bar-html-css block">80%</div>
+            </div>
+
+            <div class="progress-header">JavaScript</div>
+            <div class="progress-bar-wrapper">
+              <div class="progress-bar progress-bar-js2 block">50%</div>
+            </div>
+          </div>
+          <img src="powerpuffskill Background Removed.png" class="skill-img">
+
+
+
+<script>
+    let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "300px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+    
+</script>
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

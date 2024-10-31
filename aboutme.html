@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body{
+            background-color: #fb7da8;
+        }
+        @keyframes appear {
+        from {
+            opacity: 0;
+            transform: scale(0.5);
+        }
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    .block {
+        opacity: 0; /* Initial state */
+        animation: appear 1s ease forwards; /* Add a duration */
+    }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h5 class="logo-h5">Shii</h5>
+        </div>
+        <div class="nav-list">
+        
+
+            
+            <ul id="menuList">
+                <li class="page1-li"><a href="index.html">Home</a></li>
+                <li class="page1-li"><a href="aboutme.html">About me</a></li>
+                <li class="page1-li"><a href="project.html">Project</a></li>
+                <li class="page1-li"><a href="contact.html">Contact</a></li>
+                <li class="page1-li"><button class="page1-button"><i class="fa-solid fa-moon icon"></i></button></li>
+            </ul>
+            <div class="menu-icon">
+                <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+
+           
+        
+           
+        </div>
+          
+        
+    </nav>
+
+
+    <div class="aboutme-wrapper block">
+        <div class="edu-div">
+        <h1 class="aboutme-h1">Education</h1>
+        <button class="aboutme-btn"><i class="fa-solid fa-paperclip"></i></button>
+        <span class="aboutme-span">University of Computer Studies, Yangon,  </span><br>
+       <span class="aboutme-span-2">3rd year, VII semester.</span><br>
+       <span class="aboutme-span-3">Specialized major-Software Engineering</span>
+       <p class="aboutme-p">---------------------------------------------------------------</p>
+       </div>
+
+       <div class="edu-div">
+        <h1 class="aboutme-h1">Skill</h1>
+        <button class="aboutme-btn"><i class="fa-solid fa-star"></i></button>
+        <span class="aboutme-span">UI design illustration(Tools used-Figma)</span><br>
+       <span class="aboutme-span-2">I like to create my own design for my</span>
+       <span class="aboutme-span-3">project with figma and start coding</span>
+       <span class="aboutme-span-3">process.</span>
+       <p class="aboutme-p2">---------------------------------------------------------------</p>
+       
+       </div>
+
+       <div class="edu-div">
+        <h1 class="aboutme-h1">Interest</h1>
+        <button class="aboutme-btn"><i class="fa-solid fa-heart"></i></button>
+        <span class="aboutme-span">Creating cute/aesthetic apps</span><br>
+       <span class="aboutme-span-3">My inspiration app is called folderly. You</span>
+       <span class="aboutme-span-2">should check it out.</span>
+       <p class="aboutme-p">---------------------------------------------------------------</p>
+       </div>
+    </div>
+    
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+    
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+        let popup =document.querySelector('.popupbox');
+        function openPopup(){
+            popup.classList.add('open-popup');
+        }
+        function closePopup(){
+            popup.classList.remove('open-popup');
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

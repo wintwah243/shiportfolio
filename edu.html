@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    body{
+        background-color: #fb7da8;
+    }
+    @keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.block {
+    opacity: 0; /* Initial state */
+    animation: appear 1s ease forwards; /* Add a duration */
+}
+    
+</style>
+<body>
+   
+        <nav>
+            <div class="logo">
+            <a href="index.html">   <button class="page2-button"><i class="fa-solid fa-arrow-left"></i></button></a> 
+            </div>
+            <div class="nav-list">
+            
+
+                <!-- updated start here -->
+                <ul id="menuList">
+                    <li class="page1-li"><a href="index.html">Home</a></li>
+                    <li class="page1-li"><a href="aboutme.html">About me</a></li>
+                    <li class="page1-li"><a href="project.html">Project</a></li>
+                    <li class="page1-li"><a href="contact.html">Contact</a></li>
+                    <li class="page1-li"><button class="page1-button"><i class="fa-solid fa-moon icon"></i></button></li>
+                </ul>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+
+                <!-- update end here -->
+            
+               
+            </div>
+              
+            
+        </nav>
+   <div class="edu-wrapper block">
+        <button class="h1-btn-edu"><h1 class="edu-h1">Educational Background</h1></button>
+        <button class="edu-btn"><img src="photo_2024-10-29 12.45.48.jpeg" class="edu-img"></button>
+        
+   </div>
+   <div class="edu-div2">
+   <ul>
+  <li class="block"><i class="fa-solid fa-star edu-star"></i> <span class="edu-span">2019-2020 LYC</span></li> 
+  <li class="block"><i class="fa-solid fa-star edu-star"></i> <span class="edu-span">Science Excellence at G-8</span></li> 
+  <li class="block"><i class="fa-solid fa-star edu-star"></i> <span class="edu-span">2022-2027 present UCSY</span></li> 
+  <li class="block"><i class="fa-solid fa-star edu-star"></i> <span class="edu-span">Participate HackAtom 2024</span></li> 
+</ul>
+</div>
+
+
+
+
+
+
+<script>
+    let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "300px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+    
+</script>
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

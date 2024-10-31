@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    body{
+        background-color: #fb7da8;
+    }
+    @keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.block {
+    opacity: 0; /* Initial state */
+    animation: appear 1s ease forwards; /* Add a duration */
+}
+    
+</style>
+<body>
+   
+        <nav>
+            <div class="logo">
+                <h5 class="logo-h5">Shii</h5>
+            </div>
+            <div class="nav-list">
+            
+
+                <!-- updated start here -->
+                <ul id="menuList">
+                    <li class="page1-li"><a href="index.html">Home</a></li>
+                    <li class="page1-li"><a href="aboutme.html">About me</a></li>
+                    <li class="page1-li"><a href="project.html">Project</a></li>
+                    <li class="page1-li"><a href="contact.html">Contact</a></li>
+                    <li class="page1-li"><button class="page1-button"><i class="fa-solid fa-moon icon"></i></button></li>
+                </ul>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+
+                <!-- update end here -->
+            
+               
+            </div>
+              
+            
+        </nav>
+    <form method="post" action="" name="contact-form" class="wrapper block">
+        <input type="text" name="Your-name" placeholder="Your Name" class="sim-input"><br>
+        <input type="text" name="Your-email" placeholder="Your Email" class="sim-input"><br>
+        <input type="text" name="Feedback" placeholder="Write Message..." class="large"><br>
+        <input type="submit" class="send-btn" value="submit" id="submit">
+    </form>
+        
+    
+    <div class="wrapper-form block">
+        <button class="contact-btn"><i class="fa-solid fa-envelope"></i></button><span class="contact-span">wahwint72@gmail.com</span><br>
+        <button class="contact-btn"> <i class="fa-solid fa-phone"></i></button><span class="contact-span">09-254229977</span><br>
+        <button class="contact-btn"><i class="fa-brands fa-github"></i></button><span class="contact-span">https://github.com/wintwah243</span>
+    </div>
+
+
+<script src="googlesheet.js"></script>
+<script>
+    let menuList = document.getElementById("menuList")
+    menuList.style.maxHeight = "0px";
+
+    function toggleMenu(){
+        if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "300px";
+        }
+        else{
+            menuList.style.maxHeight = "0px";
+        }
+    }
+    
+</script>
+
+<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>

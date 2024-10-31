@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shi portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       @keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.block {
+    opacity: 0; /* Initial state */
+    animation: appear 1s ease forwards; /* Add a duration */
+}
+@media only screen and (max-width:540px){
+    .wrapper{
+        margin-top: 35%;
+    }
+}
+    </style>
+    
+</head>
+<body>
+    <section class="whole">
+        <nav>
+            <div class="logo">
+                <h5 class="logo-h5">Shii</h5>
+            </div>
+            <div class="nav-list">
+            
+
+                <!-- updated start here -->
+                <ul id="menuList">
+                    <li class="page1-li"><a href="index.html">Home</a></li>
+                    <li class="page1-li"><a href="aboutme.html">About me</a></li>
+                    <li class="page1-li"><a href="project.html">Project</a></li>
+                    <li class="page1-li"><a href="contact.html">Contact</a></li>
+                    <li class="page1-li"><button class="page1-button"><i class="fa-solid fa-moon icon"></i></button></li>
+                </ul>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+
+                <!-- update end here -->
+            
+               
+            </div>
+              
+            
+        </nav>
+
+        <header class="page1-header">
+            <div>
+                <h1 class="page1-h1 block">Hello!</h1>
+            </div>
+            <div>
+                <p class="page1-p block">_______________________________</p>
+                <p class="page1-p2 block">I’m shi, currently a student studying at University of Computer 
+                    Studies, Yangon. I’m passionate about coding and I’m also specialized in software engineering major. And of course,
+                      I am also satisfied with the major I have taken. I consider myself as a person full of desire to learn. I am highly interested 
+                      in web design and I also enjoy creating cute apps. Still in progress!!
+
+                </p>
+                <button class="scroll-btn block">Scroll down<span class="scroll-span"><i class="fa-solid fa-arrow-down fa-bounce"></i></span></button>
+               
+                <img src="powerpuff1 Background Removed.png" class="main-img">
+            </div>
+              
+        </header>
+
+
+
+        <div class="page2-first-div block">
+            <h6 class="page2-h6">About me</h6>
+        </div>
+        <div class="page2-list">
+           <a href="edu.html"><div class="page2-list-first-div block">
+                <i class="fa-solid fa-user-graduate to-left-1 to-left-1-i"></i><br>
+                <span class="to-left-1 to-left-1-span">Background</span><br><span class="to-left-1-span">Education</span><br>
+                <span class="to-left-1 straight-line">______________</span>
+            </div></a> 
+            <a href="skill.html"><div class="page2-list-sec-div block">
+                <i class="fa-solid fa-code to-left-1-i"></i><br>
+                <span class="to-left-1-span">Tools used,</span><br><span class="to-left-1-span">Skill</span><br>
+                <span class="straight-line">______________</span>
+            </div></a> 
+            <a href="interest.html"> <div class="page2-list-third-div block">
+                <i class="fa-solid fa-laptop to-left-1-i"></i><br>
+                <span class="to-left-1-span">Interest,</span><br><span class="to-left-1-span">future plan</span><br>
+                <span class="straight-line">______________</span>
+            </div></a> 
+            <a href="aboutme.html"><div class="page2-list-fifth-div">
+                <button class="page2-button"><i class="fa-solid fa-arrow-right"></i></button>
+                <p class="page2-p">Browse All</p>
+            </div></a>
+            
+        </div>
+
+        
+        <div class="wrapper block">
+            <button class="contact-btn"><i class="fa-solid fa-thumbtack"></i></button><span class="contact-span">LIST OF SOME PROJECTS</span><br>
+            <button class="contact-btn"><i class="fa-solid fa-check"></i></button><span class="contact-span">Health/fitness tracker</span><br>
+            <button class="contact-btn"> <i class="fa-solid fa-check"></i></button><span class="contact-span">To Do List</span><br>
+            <button class="contact-btn"><i class="fa-solid fa-check"></i></button><span class="contact-span">Online learning System</span><br>
+            <button class="contact-btn"><i class="fa-solid fa-check"></i></button><span class="contact-span">Album Selling System</span>
+        </div>
+
+        <img src="IDcard.jpeg" class="id-img">
+
+        
+            <h6 class="page3-h6">Contact</h6>
+       
+            <form method="post" action="" name="contact-form" class="wrapper-form block">
+                <input type="text" name="Your-name" placeholder="Your Name" class="sim-input"><br>
+                <input type="text" name="Your-email" placeholder="Your Email" class="sim-input"><br>
+                <input type="text" name="Feedback" placeholder="Write Message..." class="large"><br>
+                <input type="submit" class="send-btn" value="submit" id="submit">
+            </form>
+            <div class="popup popupbox">
+                <img src="404-tick.png">
+                <h2>Thanks for your feedback !!!</h2>
+                <p>Your Message has successfully sent.</p>
+                <button type="button" onclick="closePopup();">OK</button>
+            </div>
+       
+
+
+        <div class="footer">
+            <div class="social-link-list">
+                <a href=""><button class="footer-btn"><i class="fa-brands fa-facebook"></i></button></a>
+                <a href=""><button class="footer-btn"><i class="fa-brands fa-instagram"></i></button></a>
+                <a href=""><button class="footer-btn"><i class="fa-brands fa-github"></i></button></a>
+                <a href=""><button class="footer-btn"><i class="fa-brands fa-linkedin"></i></button></a>
+            </div>
+           
+            <div class="copyright-wrapper">
+                <p class="copyright">Copyright &copy; 2024  shi. All rights reserved.</p>
+            </div>
+         </div>
+
+    </section>
+
+    
+   
+    
+    <!-- script added -->
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        let popup =document.querySelector('.popupbox');
+    function openPopup(){
+        popup.classList.add('open-popup');
+    }
+    function closePopup(){
+        popup.classList.remove('open-popup');
+    }
+        
+    </script>
+    <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="googlesheet.js"></script>
+
+</body>
+</html>
