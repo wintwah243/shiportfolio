@@ -431,6 +431,17 @@ margin:0 auto;
 margin-top: 10%;
 margin-bottom: 20%;
 }
+.wrapper-form-strength{
+    padding: 10px;
+background-color: var(--fill-color);
+width: 300px;
+height: 300px;
+align-items: center;
+border-radius: 15px;
+margin:0 auto;
+margin-top: 20%;
+margin-bottom: 20%;
+}
 .footer{
     background-color: #333;
     text-align: center;
