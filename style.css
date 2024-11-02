@@ -174,18 +174,12 @@ nav ul li button{
 }
 .strength-h1{
     margin-top: 2%;
-    margin-left: 22%;
+    margin-left: 24%;
     color:var(--text-color);
 }
 .strength-h6{
     font-size: 15px;
     margin-top: 5%;
-    color: var(--text-color);
-}
-.strength-icon{
-    font-size: 20px;
-    margin-top: 5%;
-    margin-left: 30%;
     color: var(--text-color);
 }
 .aboutme{
