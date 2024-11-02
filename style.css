@@ -115,8 +115,6 @@ nav{
     margin-left: 2%;
 }
 
- /* updated start here */
-
  nav{
     padding:22px 4%;
     display: flex;
@@ -174,10 +172,22 @@ nav ul li button{
 .github-btn i{
     font-size: 30px;
 }
-
-
-/* update ends */
-
+.strength-h1{
+    margin-top: 2%;
+    margin-left: 22%;
+    color:var(--text-color);
+}
+.strength-h6{
+    font-size: 15px;
+    margin-top: 5%;
+    color: var(--text-color);
+}
+.strength-icon{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 30%;
+    color: var(--text-color);
+}
 .aboutme{
     background-color: var(--theme);
 }
