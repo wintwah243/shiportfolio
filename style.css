@@ -531,7 +531,7 @@ height: 200px;
     position: relative;
     width: 100px;
     height: 100px;
-    background: conic-gradient(var(--fill-color) calc(var(--progress) * 1%), #d3d3d3 0%);
+    background: conic-gradient(var(--fill-color) calc(var(--progress) * 1%), white 0%);
     border-radius: 50%;
     display: flex;
     align-items: center;
