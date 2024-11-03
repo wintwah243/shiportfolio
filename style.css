@@ -439,7 +439,7 @@ height: 300px;
 align-items: center;
 border-radius: 15px;
 margin:0 auto;
-margin-top: 20%;
+margin-top: 30%;
 margin-bottom: 20%;
 }
 .footer{
@@ -514,6 +514,41 @@ margin-left: 9%;
 .edu-div2{
 height: 200px;
 }
+/* circular */
+.progress-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: conic-gradient(var(--fill-color) calc(var(--progress) * 1%), #d3d3d3 0%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+  }
+  .circular-h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  .progress-circle::before {
+    content: attr(data-progress) '%';
+    position: absolute;
+    font-size: 24px;
+    color: #333;
+  }
+  .circular-list{
+    display: flex;
+    margin: 0 auto;
+  }
+  .circular-h6{
+    margin-top: 40%;
+    font-size: 13px;
+  }
+  .circular-wrapper{
+    margin-top: 35%;
+  }
  @media only screen and (max-width:540px){
     .whole{
         background-color: var(--theme);
@@ -531,9 +566,6 @@ height: 200px;
     margin-left: 35%;
     margin-top: 0%;
    }
- 
-    
-    /* updated start */
      nav ul{
      position: absolute;
      top: 70px;
@@ -563,9 +595,6 @@ height: 200px;
         .logo-h5{
             font-size:26px;
         }
-
-        /* update end */
-
         .page2-h6{
             font-size: 45px;
             margin-top: 40%;
