@@ -979,6 +979,12 @@ height: 200px;
         margin-top: 15%;
         margin-left:20%;
     }
+      .progress-circle{
+        margin-left: 15%;
+    }
+    .id-img{
+        display: none;
+    }
  }
  @media  only screen and (min-width:1024px){
     .pj-list-btn{
@@ -995,7 +1001,7 @@ height: 200px;
         margin-left: 12%;
     }
     .wrapper{
-        margin-top: 5%;
+        margin-top: 15%;
     }
  }
  @media only screen and (min-width:1280px){
