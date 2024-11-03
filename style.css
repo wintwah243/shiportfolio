@@ -172,15 +172,23 @@ nav ul li button{
 .github-btn i{
     font-size: 30px;
 }
-.strength-h1{
-    margin-top: 2%;
-    margin-left: 24%;
+strength-h1{
     color:var(--text-color);
 }
 .strength-h6{
-    font-size: 15px;
-    margin-top: 5%;
+    font-size: 17px;
+    margin-top: 8%;
     color: var(--text-color);
+}
+.strength-button{
+    border: none;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    border-radius: 22px;
+    background-color: var(--theme);
+    margin-left: 15%;
+    margin-top: 5%;
 }
 .aboutme{
     background-color: var(--theme);
