@@ -445,40 +445,13 @@ width: 250px;
 height: 300px;
 border-radius: 30px;
 }
-.h1-btn-edu{
-margin-left: 13%;
-margin-top: 10%;
-padding: 10px;
-width: 330px;
-border: none;
-border-radius: 33px;
-background-color: var(--fill-color);
-font-size: 10px;
-}
-.edu-star{
-margin-left: 30px;
-margin-top: 22px;
-font-size: 25px;
-}
-.edu-span{
-font-size: 25px;
-margin-left: 5%;
-}
-.edu-btn{
-border: none;
-padding: 10px;
-border-radius: 20px;
-margin: 0 auto;
-margin-top: 8%;
-background-color: rgb(178, 240, 237);
-margin-left: 10%;
-}
 .pj1{
 width: 350px;
 height: 200px;
 border-radius: 15px;
 margin-top: 2%;
 margin-left: 9%;
+margin-bottom: 7%;
 }
 .edu-div2{
 height: 200px;
@@ -517,6 +490,46 @@ height: 200px;
   }
   .circular-wrapper{
     margin-top: 35%;
+  }
+.new-edu-wrapper{
+    display: flex;
+  }
+  .new-edu-btn{
+    margin-top: 5%;
+    background-color: white;
+    margin-left: 2%;
+    padding: 2%;
+    border-radius: 10px;
+    width: 600px;
+    border: solid 5px rgb(235, 175, 185);
+    box-shadow: 0 2px 5px rgba(9,8,9,5);
+  }
+  .new-edu-h1{
+    margin-top: 5%;
+    margin-left: 2%;
+    color: #333;
+    font-size: 29px;
+  }
+  .new-edu-ul{
+    text-align: left;
+    margin-top: 7%;
+  }
+  .new-edu-li{
+    margin-left: 10%;
+    font-size: 15px;
+  }
+  .new-edu-i{
+    margin-right: 3%;
+    font-size: 15px;
+  }
+  .new-edu-div{
+    border: solid 2px pink;
+    width: 80px;
+    color: black;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10%;
   }
  @media only screen and (max-width:540px){
     .whole{
@@ -670,20 +683,6 @@ height: 200px;
             border-radius: 22px;
             font-size: 22px;
         }
-        .popup{
-            width: 400px;
-            background: #fff;
-            border-radius: 6px;
-            position: absolute;
-            top:0;
-            left: 50%;
-            transform: translate(-50%,-50%) scale(0.1);
-            text-align: center;
-            padding: 0 30px 30px;
-            color: #333;
-            visibility: hidden;
-            transition: transform 0.4s, top 0.4s;
-        }
         .footer{
             background-color: #333;
             text-align: center;
@@ -786,39 +785,6 @@ height: 200px;
             margin-top: 5%;
           color: var(--text-color);
         }
-        .edu-img{
-            width: 250px;
-            height: 300px;
-            border-radius: 30px;
-        }
-        .edu-btn{
-            border: none;
-            padding: 20px;
-            border-radius: 20px;
-            margin: 0 auto;
-            margin-top: 8%;
-            background-color: rgb(178, 240, 237);
-            margin-left: 10%;
-        }
-        .h1-btn-edu{
-            margin-left: 13%;
-            margin-top: 10%;
-            padding: 10px;
-            width: 330px;
-            border: none;
-            border-radius: 33px;
-            background-color: var(--fill-color);
-            font-size: 10px;
-        }
-        .edu-star{
-            margin-left: 30px;
-            margin-top: 22px;
-            font-size: 25px;
-        }
-        .edu-span{
-            font-size: 25px;
-            margin-left: 5%;
-        }
         .progress-container {
             background-color: var(--fill-color);
             border-radius: 22px;
@@ -830,12 +796,72 @@ height: 200px;
             width: 300px;
             height: 300px;
         }
+       .edu-img{
+            width: 140px;
+            height: 190px;
+            border-radius: 20px;
+            margin-left: 5%;
+            margin-top: 5%;
+        }
         .id-img{
             width: 100%;
             height: 200px;
             margin: 0 auto;
             margin-top: 22%;
-           
+           }
+         .new-edu-wrapper{
+            display: flex;
+          }
+          .new-edu-btn{
+            margin-top: 5%;
+            background-color: white;
+            margin-left: 2%;
+            padding: 2%;
+            border-radius: 10px;
+            width: 400px;
+            border: solid 5px rgb(235, 175, 185);
+          }
+          .new-edu-h1{
+            margin-top: 5%;
+            margin-left: 2%;
+            color: #333;
+            font-size: 29px;
+          }
+          .new-edu-ul{
+            text-align: left;
+            margin-top: 5%;
+          }
+          .new-edu-li{
+            margin-left: 10%;
+          }
+          .new-edu-i{
+            margin-right: 3%;
+          }
+          .new-edu-div{
+            border: solid 2px pink;
+            width: 80px;
+            color: black;
+            background-color: pink;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: 5%;
+          }
+          .wrapper-form-edu{
+            padding: 10px;
+            background-color: var(--fill-color);
+            width: 400px;
+            height: 400px;
+            align-items: center;
+            border-radius: 15px;
+            margin:0 auto;
+            margin-top: 10%;
+            margin-bottom: 20%;
+          }
+          .strength-h6-edu{
+            font-size: 17px;
+            margin-top: 8%;
+            width: 300px;
+            color: var(--text-color);
         }
  }
  @media only screen and (min-width:360px){
