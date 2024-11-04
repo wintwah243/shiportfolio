@@ -496,6 +496,23 @@ height: 200px;
     height: 200px;
     margin: 0 auto;
     margin-top: 5%; 
+ }
+.wrapper-form-edu{
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
+.strength-h6-edu{
+    font-size: 17px;
+    margin-top: 8%;
+    width: 300px;
+    color: var(--text-color);
 }
  @media only screen and (max-width:540px){
     .whole{
@@ -778,8 +795,8 @@ height: 200px;
           .wrapper-form-edu{
             padding: 10px;
             background-color: var(--fill-color);
-            width: 400px;
-            height: 400px;
+            width: 350px;
+            height: 350px;
             align-items: center;
             border-radius: 15px;
             margin:0 auto;
