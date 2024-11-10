@@ -520,6 +520,7 @@ height: 200px;
     padding: 9px;
     border-radius: 20px;
     border-style: dotted solid 5%;
+    border-color:black;
 }
 .btnpdf{
     background-color:var(--theme);
@@ -527,7 +528,8 @@ height: 200px;
     padding: 9px;
     border-radius: 20px;
     border-style: dotted solid 5%;
-    margin-top: 5%;
+    margin-top: 6%;
+    border-color:black;
 }
  @media only screen and (max-width:540px){
     .whole{
