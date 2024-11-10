@@ -501,7 +501,7 @@ height: 200px;
     padding: 10px;
     background-color: var(--fill-color);
     width: 400px;
-    height: 550px;
+    height: 610px;
     align-items: center;
     border-radius: 15px;
     margin:0 auto;
@@ -520,6 +520,14 @@ height: 200px;
     padding: 9px;
     border-radius: 20px;
     border-style: dotted solid 5%;
+}
+.btnpdf{
+    background-color:var(--theme);
+    color: var(--text-color);
+    padding: 9px;
+    border-radius: 20px;
+    border-style: dotted solid 5%;
+    margin-top: 5%;
 }
  @media only screen and (max-width:540px){
     .whole{
@@ -803,7 +811,7 @@ height: 200px;
             padding: 10px;
             background-color: var(--fill-color);
             width: 350px;
-            height: 550px;
+            height: 610px;
             align-items: center;
             border-radius: 15px;
             margin:0 auto;
