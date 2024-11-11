@@ -533,7 +533,7 @@ height: 200px;
     width: 300px;
     margin-left: 4%;
 }
-card-container {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
