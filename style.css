@@ -566,12 +566,11 @@ height: 200px;
   }
 
   .card h3 {
-    color: var(--text-color);
-    
+    color: var(--text-color); 
   }
 
   .card p {
-    color: #333;
+    color: var(--text-color);
     font-size: 0.9rem;
     margin-bottom: 15px;
   }
