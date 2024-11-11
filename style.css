@@ -530,6 +530,8 @@ height: 200px;
     border-style: dotted solid 5%;
     margin-top: 6%;
     border-color:black;
+    width: 300px;
+    margin-left: 4%;
 }
  @media only screen and (max-width:540px){
     .whole{
