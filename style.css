@@ -382,7 +382,7 @@ strength-h1{
     border: none;
     width: 70px;
     font-size: 25px;
-    background-color: var(--text-color);
+    background-color: var(--fill-color);
     border-radius: 50px;
     margin: 0 auto;
 }
@@ -515,6 +515,9 @@ strength-h1{
     margin-top: 8%;
     width: 300px;
     color: var(--text-color);
+}
+.arrow-icon{
+    color:var(--text-color);
 }
 .btnedu{
     background-color:var(--theme);
@@ -842,7 +845,7 @@ strength-h1{
             border: none;
             width: 70px;
             font-size: 25px;
-            background-color: var(--text-color);
+            background-color: var(--fill-color);
             border-radius: 50px;
             margin: 0 auto;
         }
