@@ -206,13 +206,13 @@ strength-h1{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-   align-items: center;
-   padding:22px 9%;
+    align-items: center;
+    padding:22px 9%;
     gap:0px;
    
 }
 .page2-list-first-div{
-   border-radius: 22px;
+    border-radius: 22px;
     background-color: var(--fill-color);
     width: 150px;
     height: 150px;
@@ -237,7 +237,7 @@ strength-h1{
     padding-left: 9%;
 }
 .page2-list-sec-div{
-    border-radius: 22px;
+     border-radius: 22px;
      background-color: var(--fill-color);
      width: 150px;
      height: 150px;
@@ -321,17 +321,19 @@ strength-h1{
     width: 300px;
     border-radius: 22px;
     font-size: 22px;
+    background-color: var(--fill-color);
+    color: var(--text-color);
 }
 .aboutme-wrapper{
     padding: 5px;
     color: whitesmoke;
-   width: 400px;
-   height: 690px;
-   align-items: center;
-   border-radius: 20px;
-   margin:0 auto;
-   margin-top: 10%;
-   margin-bottom: 2%;
+    width: 400px;
+    height: 690px;
+    align-items: center;
+    border-radius: 20px;
+    margin:0 auto;
+    margin-top: 10%;
+    margin-bottom: 2%;
 }
 .aboutme-h1{
     margin-left: 4%;
