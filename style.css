@@ -382,7 +382,7 @@ strength-h1{
     border: none;
     width: 70px;
     font-size: 25px;
-    background-color: var(--fill-color);
+    background-color: var(--text-color);
     border-radius: 50px;
     margin: 0 auto;
 }
@@ -842,7 +842,7 @@ strength-h1{
             border: none;
             width: 70px;
             font-size: 25px;
-            background-color: var(--fill-color);
+            background-color: var(--text-color);
             border-radius: 50px;
             margin: 0 auto;
         }
