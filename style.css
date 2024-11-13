@@ -402,6 +402,18 @@ nav ul li button{
     margin-top: 10%;
     margin-bottom: 20%;
 }
+.wrapper-form-contact{
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    
+}
 .wrapper-form-strength{
     padding: 10px;
     background-color: var(--fill-color);
@@ -703,19 +715,19 @@ nav ul li button{
     .sim-input, .large{
         border:none;
     }
-        .sim-input{
-            padding: 10px;
-            border-radius: 15px;
-            margin-top: 5%;
-            width: 280px;
-        }
-        .large{
-            margin-top: 5%;
-            padding: 10px;
-            border-radius: 15px;
-            width: 280px;
-            padding-bottom: 90px;
-        }
+    .sim-input{
+        padding: 10px;
+        border-radius: 15px;
+        margin-top: 5%;
+        width: 280px;
+    }
+    .large{
+        margin-top: 5%;
+        padding: 10px;
+        border-radius: 15px;
+        width: 280px;
+        padding-bottom: 90px;
+    }
         .send-btn{
             margin-top: 5%;
             border:none;
@@ -787,6 +799,18 @@ nav ul li button{
             margin:0 auto;
             margin-top: 10%;
             margin-bottom: 20%;
+        }
+         .wrapper-form-contact{
+            padding: 10px;
+            background-color: var(--fill-color);
+            width: 300px;
+            height: 300px;
+            align-items: center;
+            border-radius: 15px;
+            margin:0 auto;
+            margin-top: 10%;
+            margin-bottom: 20%;
+        
         }
         .aboutme-wrapper{
             padding: 10px;
@@ -1039,10 +1063,6 @@ nav ul li button{
        width: 300px;
        height: 300px;
     }
-    .wrapper{
-        margin-top: 5%;
-        
-    }
     .h1-btn-edu{
         width: 400px;
     }
@@ -1053,8 +1073,8 @@ nav ul li button{
         margin-top: 2%;
         margin-left: 33%;
     }
-    .pj-wrapper{
-        margin-left: 17%;
+    .pj-wrapper button{
+        margin-left: 22%;
     }
     .id-img{
         display: none;
@@ -1062,6 +1082,85 @@ nav ul li button{
     .pj1{
         margin-left: 15%;
     }
-    
+    .wrapper-form{
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
  }
+ .strength-button{
+    border: none;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    border-radius: 22px;
+    background-color: var(--theme);
+    margin-left: 22%;
+    margin-top: 2%;
+}
+.circular-wrapper{
+    margin-top: 1%;
+  }
+  .circular-list{
+    display: flex;
+    margin-left:15%;
+  }
+  .wrapper{
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 340px;
+    height: 350px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+    margin-left: 15%;
+  }
+  .wrapper-form-contact{
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 1%;
+    margin-bottom: 10%;
+  }
+  .wrapper-form-edu{
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 400px;
+    height: 650px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    }
+    .btnpdf{
+        margin-left: 9%;
+        margin-top: 7%;
+    }
+    .pj-list-btn{
+        margin-left: 10%;
+        margin-top: 1%;
+    }
+    .progress-container{
+        margin-top: 2%;
+    }
+
+}
  
