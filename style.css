@@ -599,6 +599,17 @@ nav ul li button{
     margin-bottom: 10px;
     width: 200px;
   }
+.wrapper-form-web-design{
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 400px;
+    height: 750px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+  }
 
 
   @media (max-width: 768px) {
@@ -919,6 +930,17 @@ nav ul li button{
             width: 300px;
             color: var(--text-color);
         }
+         .wrapper-form-web-design{
+                padding: 10px;
+                background-color: var(--fill-color);
+                width: 350px;
+                height: 750px;
+                align-items: center;
+                border-radius: 15px;
+                margin:0 auto;
+                margin-top: 10%;
+                margin-bottom: 20%;
+              }
  }
  @media only screen and (max-width:360px){
         .page2-h6{
@@ -1253,6 +1275,17 @@ nav ul li button{
             margin-left: 9%;
             margin-bottom: 7%;
         }
+         .wrapper-form-web-design{
+            padding: 10px;
+            background-color: var(--fill-color);
+            width: 300px;
+            height: 750px;
+            align-items: center;
+            border-radius: 15px;
+            margin:0 auto;
+            margin-top: 10%;
+            margin-bottom: 20%;
+          }
  }
 
  @media only screen and (min-width:768px){
