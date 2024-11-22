@@ -310,7 +310,7 @@ nav ul li button{
     cursor: pointer;
 }
 .contact-span{
-    margin-left: 5%;
+    margin-left: 2%;
 }
 .pj-wrapper{
     margin: 0 auto;
@@ -751,7 +751,7 @@ nav ul li button{
             margin-left: 5%;
         }
         .contact-span{
-            margin-left: 5%;
+            margin-left: 2%;
         }
         .pj-wrapper{
             margin-top: 15%;
@@ -921,56 +921,6 @@ nav ul li button{
         }
  }
  @media only screen and (max-width:360px){
-    .whole{
-            background-color: var(--primary-color);
-            width: 100%;
-        }
-    .page1-h1{
-        font-size: 60px;
-       }
-    .page1-p2{
-        width: 350px;
-       }
-    .main-img{
-        width: 250px;
-        height: 200px;
-        margin-left: 35%;
-        margin-top: 0%;
-       }
-    
-     nav ul{
-         position: absolute;
-         top: 70px;
-         left: 0;
-         right: 0;
-         flex-direction: column;
-         text-align: center;
-         background: var(--fill-color);
-         gap: 0;
-         overflow: hidden;
-        }
-        nav ul li{
-            padding: 20px;
-            padding-top: 0;
-            
-        }
-        .menu-icon{
-            display: block;
-            font-size: 24px;
-            color:var(--text-color);
-        
-        }
-        #menuList{
-            transition: all 0.5s;
-        }
-
-        .logo-h5{
-            font-size:26px;
-        }
-        nav{
-            width: 100%;
-        }
-
         .page2-h6{
             font-size: 45px;
             margin-top: 40%;
@@ -1108,7 +1058,6 @@ nav ul li button{
             margin-bottom: 20%;
         }
         .wrapper-form-contact{
-            
             padding: 10px;
             background-color: var(--fill-color);
             width: 300px;
@@ -1118,7 +1067,6 @@ nav ul li button{
             margin:0 auto;
             margin-top: 10%;
             margin-bottom: 20%;
-            
         }
         .aboutme-wrapper{
             padding: 1px;
