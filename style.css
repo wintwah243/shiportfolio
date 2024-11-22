@@ -376,6 +376,7 @@ nav ul li button{
     height: 200px;
     margin: 0 auto;
     margin-top: 22%; 
+    border-radius:10px;
 }
 .page2-button{
     padding: 20px;
@@ -458,14 +459,6 @@ nav ul li button{
     width: 250px;
     height: 300px;
     border-radius: 30px;
-}
-.pj1{
-    width: 350px;
-    height: 200px;
-    border-radius: 15px;
-    margin-top: 2%;
-    margin-left: 9%;
-    margin-bottom: 7%;
 }
 .edu-div2{
     height: 200px;
