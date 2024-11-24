@@ -413,7 +413,7 @@ nav ul li button{
     padding: 10px;
     background-color: var(--fill-color);
     width: 300px;
-    height: 300px;
+    height: 320px;
     align-items: center;
     border-radius: 15px;
     margin:0 auto;
@@ -814,7 +814,7 @@ nav ul li button{
             padding: 10px;
             background-color: var(--fill-color);
             width: 300px;
-            height: 300px;
+            height: 320px;
             align-items: center;
             border-radius: 15px;
             margin:0 auto;
@@ -1082,7 +1082,7 @@ nav ul li button{
             padding: 10px;
             background-color: var(--fill-color);
             width: 300px;
-            height: 300px;
+            height: 320px;
             align-items: center;
             border-radius: 15px;
             margin:0 auto;
@@ -1446,7 +1446,7 @@ nav ul li button{
     padding: 10px;
     background-color: var(--fill-color);
     width: 300px;
-    height: 300px;
+    height: 320px;
     align-items: center;
     border-radius: 15px;
     margin:0 auto;
