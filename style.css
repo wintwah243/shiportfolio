@@ -1368,11 +1368,17 @@ nav ul li button{
         margin-top: 15%;
     }
  }
- 
  @media only screen and (min-width:1280px){
+    .page1-p2{
+        width: 900px;
+    }
+    .main-img{
+        width: 370px;
+    }
     .contact{
         display: flex;
     }
+
     .skill-img{
        width: 300px;
        height: 300px;
@@ -1388,33 +1394,37 @@ nav ul li button{
         margin-left: 33%;
     }
     .pj-wrapper button{
-        margin-left: 22%;
+        margin-left: 24%;
+        margin-top: 0;
     }
     .id-img{
         display: none;
     }
-    .pj1{
-        margin-left: 15%;
+    .progress-circle{
+        width: 150px;
+        height: 150px;
+        margin-left: 11%;
+        margin-top: 3%;
     }
     .wrapper-form{
-    padding: 10px;
-    background-color: var(--fill-color);
-    width: 400px;
-    height: 250px;
-    align-items: center;
-    border-radius: 15px;
-    margin:0 auto;
-    margin-top: 10%;
-    margin-bottom: 20%;
+        padding: 10px;
+        background-color: var(--fill-color);
+        width: 400px;
+        height: 250px;
+        align-items: center;
+        border-radius: 15px;
+        margin:0 auto;
+        margin-top: 15%;
+        margin-bottom: 20%;
  }
  .strength-button{
     border: none;
     align-items: center;
     padding: 5px;
-    width: 200px;
+    width: 230px;
     border-radius: 22px;
     background-color: var(--theme);
-    margin-left: 22%;
+    margin-left: 14%;
     margin-top: 2%;
 }
 .circular-wrapper{
@@ -1432,15 +1442,20 @@ nav ul li button{
     align-items: center;
     border-radius: 15px;
     margin:0 auto;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 2%;
 }
-.card-container {
+   .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     padding: 20px;
+    flex-direction: row;
+    align-items: center;
     margin-left: 15%;
+  }
+  .page2-first-div{
+    margin-bottom: 2%;
   }
   .wrapper-form-contact{
     padding: 10px;
@@ -1475,6 +1490,17 @@ nav ul li button{
     .progress-container{
         margin-top: 2%;
     }
-
+    .wrapper-form-web-design{
+        display: none;
+        margin: 0 auto;
+        width: 700px;
+        height: 250px;
+    }
+    .card {
+        width: 300px;
+    }
+    .skill-img{
+        display: none;
+    }
 }
- 
+
