@@ -609,7 +609,13 @@ nav ul li button{
     margin-top: 10%;
     margin-bottom: 20%;
   }
-
+.progress-container {
+    background-color: var(--fill-color);
+    border-radius: 22px;
+    padding: 25px;
+    margin-top: 10%;
+    height: 400px;
+}
 
   @media (max-width: 768px) {
     .card-container {
