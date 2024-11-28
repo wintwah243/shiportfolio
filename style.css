@@ -1346,7 +1346,7 @@ nav ul li button{
         margin-left: 25%;
     }
     .pj-wrapper{
-        margin-top: 15%;
+        margin-top: 5%;
         margin-left:20%;
     }
       .progress-circle{
@@ -1495,6 +1495,7 @@ nav ul li button{
     }
     .progress-container{
         margin-top: 2%;
+        height:440px;
     }
     .wrapper-form-web-design{
         display: none;
