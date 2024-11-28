@@ -365,7 +365,9 @@ nav ul li button{
     color:var(--text-color);
 }
 .aboutme-p{
-     color:var(--text-color);
+    color:var(--text-color);
+    padding-left: 22px;
+    padding-top: 22px;
 }
  .id-div{
     width: 350px;
