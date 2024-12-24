@@ -1416,15 +1416,15 @@ nav ul li button{
         margin-top: 3%;
     }
     .wrapper-form{
-        padding: 10px;
-        background-color: var(--fill-color);
-        width: 400px;
-        height: 250px;
-        align-items: center;
-        border-radius: 15px;
-        margin:0 auto;
-        margin-top: 15%;
-        margin-bottom: 20%;
+    padding: 10px;
+    background-color: var(--fill-color);
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    border-radius: 15px;
+    margin:0 auto;
+    margin-top: 15%;
+    margin-bottom: 20%;
  }
  .strength-button{
     border: none;
@@ -1433,7 +1433,7 @@ nav ul li button{
     width: 230px;
     border-radius: 22px;
     background-color: var(--theme);
-    margin-left: 14%;
+    margin-left: 20%;
     margin-top: 2%;
 }
 .circular-wrapper{
@@ -1454,7 +1454,7 @@ nav ul li button{
     margin-top: 15%;
     margin-bottom: 2%;
 }
-   .card-container {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
@@ -1498,7 +1498,6 @@ nav ul li button{
     }
     .progress-container{
         margin-top: 2%;
-        height:440px;
     }
     .wrapper-form-web-design{
         display: none;
@@ -1506,11 +1505,16 @@ nav ul li button{
         width: 700px;
         height: 250px;
     }
-    .card {
+      .card {
         width: 300px;
-    }
+      }
     .skill-img{
         display: none;
     }
+    .progress-container{
+        height: 440px;
+    }
+    .circular-h6{
+        font-size: 18px;
+    }
 }
-
